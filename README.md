@@ -73,3 +73,45 @@ Then open your browser to:
 
 Use the Swagger UI to upload an image and test the OCR.
 
+---
+
+## 📝 API Usage
+
+### `POST /ocr`
+
+Upload an image file and get back the extracted text.
+
+#### Request (multipart/form-data):
+
+- `image`: an image file (JPG, PNG, etc.)
+
+#### Example Response:
+
+```json
+{
+  "Extracted text from the image."
+}
+```
+
+---
+
+## 💡 What I Learned
+
+- How to build and run APIs using FastAPI
+- How to integrate third-party libraries like `pytesseract`
+- How OCR works and how to expose it via an API
+- The role of FastAPI in the frontend-backend communication layer
+
+---
+
+## 📄 License
+
+MIT License – free to use and modify.
+
+---
+
+## 👤 Author
+
+**Saiful Islam**  
+[GitHub – SaifulAbir](https://github.com/SaifulAbir)  
+[LinkedIn – saifulislamcse](https://www.linkedin.com/in/saifulislamcse)
