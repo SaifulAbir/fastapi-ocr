@@ -95,6 +95,18 @@ Upload an image file and get back the extracted text.
 
 ---
 
+## 📁 Project Structure
+
+```
+fastapi-ocr/
+├── main.py                # FastAPI app
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+├── LICENSE                # MIT License file
+└── .gitignore             # Git ignore settings
+```
+
+---
 ## 💡 What I Learned
 
 - How to build and run APIs using FastAPI
